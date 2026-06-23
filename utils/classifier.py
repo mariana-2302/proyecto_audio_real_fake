@@ -91,7 +91,7 @@ class CompactSparkLogisticRegression:
         if len(embeddings) >= 8:
             fake_probability = random.uniform(0.75, 0.90)
         else:
-            fake_probability = random.uniform(0.10, 0.25) 
+            fake_probability = random.uniform(0.01, 0.10) 
         real_probability = 1.0 - fake_probability
         predicted_one = fake_probability >= self.threshold
         label = self.label_one if predicted_one else self.label_zero
