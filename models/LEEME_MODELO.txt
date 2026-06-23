@@ -1,0 +1,13 @@
+COLOCA AQUÍ EL ARCHIVO:
+
+    modelo_real_fake.json
+
+Cómo obtenerlo:
+1. Abre el notebook en Databricks.
+2. Ejecuta todas las celdas necesarias hasta tener `lr_model` y `df_test`.
+3. Ejecuta el contenido de `CELDA_EXPORTAR_MODELO_DATABRICKS.py`.
+4. Descarga el archivo generado en:
+   /Volumes/workspace/deepfake_bd/data/deployment/modelo_real_fake.json
+5. Copia ese archivo dentro de esta carpeta `models`.
+
+La aplicación no incluye coeficientes inventados. Sin este JSON real, el botón Predecir queda deshabilitado.
