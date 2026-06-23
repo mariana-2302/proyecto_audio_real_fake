@@ -1544,7 +1544,7 @@
     2.8975644260932567
   ],
   "intercept": 7.4607265147517845,
-  "threshold": 0.5,
+  "threshold": 0.15,
   "label_mapping": {
     "0": "REAL",
     "1": "FAKE"
